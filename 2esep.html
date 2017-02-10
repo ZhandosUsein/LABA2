@@ -1,0 +1,21 @@
+<html>
+    <head>
+</head>
+ <script>
+n= Number(prompt("Олшеми"," "));
+a= []
+for (var i=0;i<n;i++){
+a.push(Math.round(Math.random()*10));
+}
+var min = a[0];
+for(var k=1;k<a.length;k++) {
+if (a[k]<min) {
+min=a[k];
+}
+}
+alert(a)
+alert("\n ен томен мани: " +min);
+</script>       
+
+
+</html>

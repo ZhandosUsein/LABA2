@@ -1,0 +1,18 @@
+<html>
+
+<script>
+n= Number(prompt("?כרול³"," "));
+a= []
+for (var i=0;i<n;i++){
+a.push(Math.round(Math.random()*10));
+}
+sum=0
+for(var i=0;i<a.length;i++) {
+if(a[i]%2==0)
+sum+=a[i]
+}
+alert(a +sum)
+alert("\nSum is: " +sum);
+</script>
+
+</html>

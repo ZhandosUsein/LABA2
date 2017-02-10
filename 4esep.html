@@ -1,0 +1,15 @@
+<script>
+n= Number(prompt("Size"," "));
+x= Number(prompt("Which element you want to delete? ", " "));
+a= []
+
+for (var i=0;i<n;i++){
+a.push(Math.round(Math.random()*10));
+
+}
+a.splice(x,1);
+
+document.write(a)
+
+
+</script>
